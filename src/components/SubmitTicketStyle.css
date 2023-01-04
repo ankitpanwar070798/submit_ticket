@@ -1,0 +1,192 @@
+.main-container {
+  background-color: #1e1e1e;
+  width: 100vw;
+  height: 120vh;
+}
+.main-header {
+  padding-left: 20px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 120%;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+hr {
+  border-color: #3da29d;
+}
+.paragraph {
+  margin-top: 24px;
+  padding-left: 20px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  color: #949494;
+}
+.para {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  color: #949494;
+}
+.flex1 {
+  display: flex;
+  gap: 120px;
+}
+.flex2 {
+  display: flex;
+  gap: 120px;
+  margin-bottom: 50px;
+}
+select {
+  padding: 12px 24px;
+  gap: 10px;
+  color: white;
+  width: 327px;
+  height: 48px;
+  border-radius: 16px;
+  font-size: 18px;
+  border: none;
+  background-color: black;
+}
+input {
+  padding: 12px 16px;
+  gap: 10px;
+  color: white;
+  width: 260px;
+  border-radius: 16px;
+  font-size: 18px;
+  border: none;
+  background-color: black;
+}
+input::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+textarea {
+  padding: 12px 24px;
+  gap: 10px;
+  color: white;
+
+  border-radius: 16px;
+  font-size: 18px;
+  border: none;
+  background-color: black;
+}
+
+label {
+  color: white;
+}
+span {
+  color: red;
+}
+
+#file {
+  display: none;
+}
+.box {
+  padding-left: 50px;
+}
+
+.file_label {
+  display: block;
+  font-size: 20px;
+  font-family: Arial;
+  width: 250px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #8f24245e;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  border: 1px solid #ff0000;
+  border-radius: 5px;
+}
+
+.file_label:hover {
+  background-color: #f31212;
+  color: #ffffff;
+  cursor: pointer;
+}
+.fa {
+  margin-right: 5px;
+}
+
+button {
+  width: 140px;
+  height: 45px;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  line-height: 120%;
+  font-weight: 600;
+  color: #949494;
+  background-color: #2a2d2f;
+  border: none;
+  border-radius: 38px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  outline: none;
+}
+.allButton {
+  display: flex;
+  justify-content: space-between;
+  width: 860px;
+}
+button:hover {
+  background-color: rgba(0, 114, 109, 0.24);
+  color: #fff;
+}
+.submitButton {
+  width: 250px;
+  height: 50px;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  line-height: 120%;
+  font-weight: 600;
+  color: #ffffff;
+  background: linear-gradient(90deg, #3da29d 0%, #12625e 100%);
+  border: none;
+  border-radius: 38px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  outline: none;
+}
+
+@media only screen and (max-width: 930px) {
+  .main-container {
+    padding: 20px 0;
+    height: auto;
+  }
+  .box {
+    padding: 0 20px;
+  }
+  .flex1 {
+    display: inline;
+  }
+  .flex2 {
+    display: inline;
+  }
+  .allButton {
+    display: inline;
+  }
+  button {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  /* .lastButton{
+        margin-top:30px 0;
+    } */
+  textarea {
+    width: -webkit-fill-available;
+  }
+  .case {
+    margin-bottom: 30px;
+  }
+  select {
+    width: 280px;
+  }
+}
